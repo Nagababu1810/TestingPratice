@@ -56,19 +56,19 @@ public class Actpage {
 		
 		
 		//slider bar
-		WebElement slider=driver.findElement(By.id("slider"));
+		//WebElement slider=driver.findElement(By.id("slider"));
 		//act.clickAndHold(slider).build().perform();
-		act.dragAndDropBy(slider, 50, 150).build().perform();
+		//act.dragAndDropBy(slider, 50, 150).build().perform();
 		
 		
 		//resize
-		WebElement resize=driver.findElement(By.id("resizable"));
-		act.dragAndDropBy(resize, 0, 50).build().perform();
+		//WebElement resize=driver.findElement(By.id("resizable"));
+		//act.dragAndDropBy(resize, 0, 50).build().perform();
 		
 	}
 	
 	
-	//@AfterMethod
+	@AfterMethod
 	public void teardown() 
 	{
 		driver.close();

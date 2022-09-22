@@ -5,6 +5,7 @@
     <classes>
       <class name="TestNg.Actpage">
         <methods>
+          <include name="teardown"/>
           <include name="setup"/>
           <include name="act"/>
         </methods>
